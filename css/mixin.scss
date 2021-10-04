@@ -1,0 +1,16 @@
+
+@mixin h1 {
+    font-size: $--b-size;
+    line-height:$--b-hl;
+    font-weight: bold;
+}
+@mixin p {
+    font-size: $--s-size;
+    line-height: $--s-hl;
+}
+
+@mixin h2 {
+    font-size: $--m-size;
+    line-height: $--m-size;
+}
+
